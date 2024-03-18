@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 0 #00000020;
+}
+
+.cadastro{
+    height: 100vh ;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ll{
+    font-size: 30px;
+}
+
+.ll2{
+    font-size: 17px;
+    height: 40px;
+}
+
+.sublogo{
+    font-size: 17px;
+    text-decoration: none;
+    color:#444444;
+}

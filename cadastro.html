@@ -4,28 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Cadastro</title>
 
 </head>
 
 <body>
-    <main>
-        <label for="nome_cadastro">Informe seu nome completo:</label> <br>
-        <input type="text" name="nome" id="nome_cadastro">
-        <br>
-        <br>
-        <label for="data_de_nascimento">Informe seu aniversário:</label> <br>
-        <input type="date" name="data_de_nascimento" id="">
-        <br>
-        <br>
-        <label for="email">Informe seu endereço email:</label> <br>
-        <input type="text" name="email" id="">
-        <br>
-        <br>
-        <input type="submit" value="Salvar">
+    <main class="cadastro">
+        <div class="form">
+        <form  class="conteiner">
+        <label class="label-nome" for="nome_cadastro">Nome</label> 
+        <i  class="bx bxs-user"></i>
+        <input class="input-nome" type="text" name="nome" id="nome_cadastro" placeholder="Informe seu nome:">
+
+        <label class="label-sobre" for="nome_cadastro">Sobrenome</label> 
+        <i  class="bx bxs-user"></i>
+        <input class="input-sobre" type="text" name="sobrenome" id="sobrenome_cadastro" placeholder="Informe seu sobrenome:">
+
+        <label class="label-nascimento" for="data_de_nascimento">Seu  aniversário</label> 
+        <input class="input-nascimento" type="date" name="data_de_nascimento" id="data_de_nascimento_cadastro">
+
+        <label class="label-email" for="email"> Email </label>
+        <i  class="bx bxs-user"></i>
+        <input class="input-email" type="email" name="email" id="email_cadastro" placeholder="Informe seu email :">
+        
+        <input class="button" type="submit" value="Criar cadastro">
+        </div>
+    </form>
     </main>
 </body>
 </html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cadastro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 16px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 0;
+}
+
+.input-email{
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 0 8px 32px;
+    border-radius: 4px;
+}
+
+.input-nome{
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 0 8px 32px;
+    border-radius: 4px;
+}
+
+.input-nascimento{
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 0 8px 32px;
+    border-radius: 4px;
+}
+
+.input-sobre{
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 0 8px 32px;
+    border-radius: 4px;
+}
+
+.button{
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 550;
+    width: 100%;
+}
+
+.label-email {
+    margin: 0 0 -12px 0;
+    font-weight: 600;
+}
+
+.label-sobre {
+    margin: 0 0 -12px 0;
+    font-weight: 600;
+}
+
+.label-nome {
+    margin: 0 0 -12px 0;
+    font-weight: 600;
+}
+
+.label-nascimento {
+    margin: 0 0 1px 0;
+    font-weight: 600;
+}
+
+.input-email:focus {
+    border: 1px solid #999999;
+}
+
+.input-nome:focus {
+    border: 1px solid #999999;
+}
+
+.input-sobre:focus {
+    border: 1px solid #999999;
+}
+
+.input-nascimento:focus {
+    border: 1px solid #999999;
+}
+
+.form i {
+    color:#999999;
+    font-size: 16px;
+    transform: translateX(-75px) translateY(26px);
+}

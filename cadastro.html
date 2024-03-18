@@ -8,6 +8,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Cadastro</title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -23,15 +27,33 @@
         <input class="input-sobre" type="text" name="sobrenome" id="sobrenome_cadastro" placeholder="Informe seu sobrenome:">
 
         <label class="label-nascimento" for="data_de_nascimento">Seu  aniversário</label> 
-        <input class="input-nascimento" type="date" name="data_de_nascimento" id="data_de_nascimento_cadastro">
+        <i class='bx bxs-calendar'></i>
+        <input class="input-nascimento" type="text" name="data_de_nascimento" id="date" placeholder="Informe seu aniversário:">
 
         <label class="label-email" for="email"> Email </label>
-        <i  class="bx bxs-user"></i>
+        <i class='bx bxs-envelope'></i>
         <input class="input-email" type="email" name="email" id="email_cadastro" placeholder="Informe seu email :">
+
+        <label class="label-cpf" for="CPF">Seu CPF</label>
+        <i  class="bx bxs-user"></i>
+        <input class="input-cpf" type="text" name="CPF" id="cpf" placeholder="Informe seu CPF:">
+
+        <label class="label-telefone" for="data_de_nascimento">Seu numero</label>
+        <i  class="bx bxs-phone"></i>
+        <input class="input-telefone" type="text" name="telefone" id="telefone" placeholder="Informe seu numero:">
         
         <input class="button" type="submit" value="Criar cadastro">
         </div>
     </form>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $('#date').mask('00/00/0000');
+    $('#cpf').mask('000.000.000-00', {reverse: true});
+    $('#telefone').mask('(00) 0000-0000');
+</script>
+
 </body>
 </html>

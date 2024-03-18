@@ -61,6 +61,21 @@
     border-radius: 4px;
 }
 
+.input-telefone{
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 0 8px 32px;
+    border-radius: 4px;
+}
+
+.input-cpf{
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 0 8px 32px;
+    border-radius: 4px;
+}
+
+
 .button{
     border-radius: 5px;
     cursor: pointer;
@@ -84,7 +99,17 @@
 }
 
 .label-nascimento {
-    margin: 0 0 1px 0;
+    margin: 0 0 -12px 0;
+    font-weight: 600;
+}
+
+.label-telefone {
+    margin: 0 0 -12px 0;
+    font-weight: 600;
+}
+
+.label-cpf {
+    margin: 0 0 -12px 0;
     font-weight: 600;
 }
 
@@ -101,6 +126,14 @@
 }
 
 .input-nascimento:focus {
+    border: 1px solid #999999;
+}
+
+.input-telefone:focus{
+    border: 1px solid #999999;
+}
+
+.input-cpf:focus{
     border: 1px solid #999999;
 }
 
